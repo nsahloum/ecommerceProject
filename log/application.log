@@ -1113,3 +1113,7 @@ Consider defining a bean of type 'org.springdoc.core.AbstractRequestService' in 
 2022-02-26 01:43:45.717  INFO 11914 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-02-26 01:43:45.719  INFO 11914 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
 2022-02-26 01:43:47.228  INFO 11914 --- [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 666 ms
+2022-02-26 01:51:05.394  WARN 11914 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s91ms), soft-evicting connections from pool.
+2022-02-26 02:00:07.722  INFO 11914 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-26 02:00:07.745  INFO 11914 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-26 02:00:07.774  INFO 11914 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
